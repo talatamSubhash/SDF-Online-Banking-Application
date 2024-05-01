@@ -1,0 +1,29 @@
+#div01{
+    flex-wrap: wrap;
+    height:90ch
+  }
+  #div1{
+    width: 100%;
+    height: 25%;
+    border-style: double;
+    background-color: aqua;
+  }
+  #div2{
+ 
+    height: 65%;
+    width: 100%;
+    border-style: dotted;
+    background-image:url(C:\Users\donga\OneDrive\Desktop\REACTJS\BankApplicationProject\src\sathya.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+   background-size:auto 80%;
+   background-color: bisque;
+ background-blend-mode:darken;
+  }
+  #div3{
+    width: 100%;
+    height: 10%;
+    border-style: dotted;
+    background-color: purple;
+    text-align: center;
+  }
