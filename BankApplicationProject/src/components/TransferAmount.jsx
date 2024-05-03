@@ -26,7 +26,7 @@ const TransferAmount = () => {
     return (
         <>
             <div>
-                <h1 style={{textAlign:'center'}}>TRANSFER FORM</h1>
+                <h1 style={{textAlign:'center'color:"white",border:"2px solid black",background:"purple"}}>TRANSFER FORM</h1>
                 <table style={{marginLeft:200}}>
                     <tbody>
                         <tr>
@@ -50,8 +50,8 @@ const TransferAmount = () => {
                             <td><input type="text" ref={ref5} /></td>
                         </tr>
                         <tr>
-                            <td><button onClick={transferAmount}>Submit</button></td>
-                            <td><button type="reset">Clear</button></td>
+                            <td><button onClick={transferAmount} style={{background:"darkTurquoise",color:"white",padding:"3px",borderRadius:"10px",fontWeight:"bold",cursor:"pointer"}}>Submit</button></td>
+                            <td><button type="reset" style={{background:"darkRed",color:"white",padding:"3px",borderRadius:"10px",fontWeight:"bold",cursor:"pointer"}}>Clear</button></td>
                         </tr>
                     </tbody>
                 </table>
