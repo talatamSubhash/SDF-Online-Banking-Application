@@ -25,7 +25,7 @@ const WithdrawAmount = () => {
     return (
         <>
             <div>
-                <h1 style={{textAlign:"center"}}>WITHDRAW FORM</h1>
+                <h1 style={{textAlign:"center",color:"white",border:"2px solid black",background:"blue"}}>WITHDRAW FORM</h1>
                 <table id="table" style={{marginLeft:200}}>
                     <tbody>
                         <tr>
