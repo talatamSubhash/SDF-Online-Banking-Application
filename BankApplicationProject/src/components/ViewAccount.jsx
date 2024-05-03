@@ -26,7 +26,7 @@ const ViewAccount = ()=>{
     }
     return(<>
         <div>
-        <h1 style={{textAlign:"center"}}>BALANCE FORM</h1>
+        <h1 style={{textAlign:"center" ,color:"white",border:"2px solid black",background:"purple"}}>BALANCE FORM</h1>
         <table style={{marginLeft:150}}> 
         <tbody>
             <tr>
