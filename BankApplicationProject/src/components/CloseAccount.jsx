@@ -30,7 +30,7 @@ const CloseAccount = () => {
 
     return (
         <div>
-            <h1 style={{textAlign:"center"}}>CLOSE ACCOUNT</h1>
+            <h1 style={{textAlign:"center" ,border:"2px solid black",color:"black",border:"2px solid black",background:"red"}}>CLOSE ACCOUNT</h1>
             <table style={{marginLeft:200}}>
                 <tbody>
                     <tr>
@@ -47,7 +47,7 @@ const CloseAccount = () => {
                     </tr>
                     <tr>
                         <td colSpan="2" style={{ textAlign: "center" }}>
-                            <button onClick={closeAccount}>Close Account</button>
+                            <button onClick={closeAccount}style={{background:"red",color:"white",padding:"3px",borderRadius:"10px",fontWeight:"bold",cursor:"pointer"}}>Close Account</button>
                         </td>
                     </tr>
                 </tbody>
