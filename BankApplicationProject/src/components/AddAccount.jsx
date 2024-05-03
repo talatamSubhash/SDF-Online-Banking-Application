@@ -41,38 +41,40 @@ const AddAccount = () => {
 
 return (
     <>
-        <div>
-            <h1 style={{textAlign:"center" , }}>OPEN ACCOUNT FORM</h1>
+        <div style={{backgroundImage:`URL("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/UD7CEz6/bank-bank-building-branch_vyks9ofi_thumbnail-1080_01.png")`,backgroundSize:"80%",height:"440px"}}>
+          <img style={{width:'700px',height:'150px'}}src="https://thumbs.dreamstime.com/b/create-account-web-button-editable-vector-illustration-isolated-white-background-create-account-button-122391697.jpg"/>
+
+            <h1 style={{textAlign:"center" , color:"white",border:"2px solid black" ,background:"black"}}>OPEN ACCOUNT FORM</h1>
             <table style={{marginLeft:200}}>
             <tbody>
                 <tr>
-                <td>Account Number : </td>
+                <td style={{color:"white"}}>Account Number : </td>
                 <td><input type="text" ref={ref1} /></td>
                 </tr>
                 <tr>
-                <td>Name : </td>
+                <td style={{color:"white"}}>Name : </td>
                 <td><input type="text" ref={ref2} /></td>
                 </tr>
                 <tr>
-                <td>Password : </td>
+                <td style={{color:"white"}}>Password : </td>
                 <td><input type="password" ref={ref3} /></td>
                 </tr>
                 <tr>
-                <td>Amount : </td>
+                <td style={{color:"white"}}>Amount : </td>
                 <td><input type="text" ref={ref4} /></td>
                 </tr>
                 <tr>
-                <td>Address : </td>
+                <td style={{color:"white"}}>Address : </td>
                 <td><input type="text" ref={ref5} /></td>
                 </tr>
                 <tr>
-                <td>Mobile Number : </td>
+                <td style={{color:"white"}}>Mobile Number : </td>
                 <td><input type="text" ref={ref6} /></td>
                 </tr>
                 <br />
                 <tr>
-                <td><button onClick={addAccount}>Submit</button></td>
-                <td><button type="reset">Clear</button></td>
+                <td><button onClick={addAccount}style={{background:"ForestGreen",color:"white",padding:"3px",borderRadius:"10px",fontWeight:"bold",cursor:"pointer"}}>Submit</button></td>
+                <td><button type="reset" style={{background:"red",color:"white",padding:"3px",borderRadius:"10px",fontWeight:"bold",cursor:"pointer"}}>Clear</button></td>
                 </tr>
             </tbody>
             </table>
