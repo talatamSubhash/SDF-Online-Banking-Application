@@ -25,7 +25,7 @@ const DepositAmount = () => {
     return (
         <>
             <div>
-                <h1 style={{textAlign:"center"}}>DEPOSIT FORM</h1>
+                <h1 style={{textAlign:"center" ,color:"black",border:"2px solid black",background:"pink"}}>DEPOSIT FORM</h1>
                 <table style={{marginLeft:200}}>
                     <tbody>
                         <tr>
@@ -45,8 +45,8 @@ const DepositAmount = () => {
                             <td><input type="text" ref={ref4} /></td>
                         </tr>
                         <tr>
-                            <td><button onClick={depositAmount}>Submit</button></td>
-                            <td><button type="reset">Clear</button></td>
+                            <td><button onClick={depositAmount}style={{background:"darkGreen",color:"white",padding:"3px",borderRadius:"10px",fontWeight:"bold",cursor:"pointer"}}>Submit</button></td>
+                            <td><button type="reset"  style={{background:"darkRed",color:"white",padding:"3px",borderRadius:"10px",fontWeight:"bold",cursor:"pointer"}}>Clear</button></td>
                         </tr>
                     </tbody>
                 </table>
